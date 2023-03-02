@@ -51,10 +51,10 @@
 > `RF-3`: Quando o cliente realiza uma reserva online, o sistema realiza a cobrança de uma diária no cartão de crédito para confirmação da reserva.
 
 <div align="center">
-<img src="./diagramas/Caso%20de%20uso%20registrar%20reserva.png" width="600px"> 
+<img src="./diagramas/Caso%20de%20uso%20registrar%20reserva.png" width="600px" alt="Caso de uso registrar reserva"> 
 </div>
 
-*O stereotype << extend >> é usado por que o caso de uso "Registrar Cobrança de Diária" pode ou não ser realizado. É condicional.*
+*O stereotype << extend >> é usado porque o caso de uso "Registrar Cobrança de Diária" pode ou não ser realizado. É condicional.*
 
 ### Diagrama de Caso de Uso com base no seguinte requisito funcional:
 
@@ -64,4 +64,12 @@
 <img src="./diagramas/Caso%20de%20uso%20checkout.png" width="600px" alt="DCU Realizar Checkout"> 
 </div>
 
-*O stereotype << include >> é usado por que o caso de uso "Quitar reserva" deve ser realizado após o "Realizar Check-out". É incondicional. Ou seja, é executado sem depender de condições.*
+*O stereotype << include >> é usado porque o caso de uso "Quitar reserva" deve ser realizado após o "Realizar Check-out". É incondicional. Ou seja, é executado sem depender de condições.*
+
+## Diagrama de classes
+
+### Diagrama de classes do caso de uso `Registrar Reserva` implementado anteriormente.
+
+<div align="center">
+<img src="./diagramas/DC%20Registrar%20Reserva.png" width="600px" alt="DC Registrar Reserva"> 
+</div>
