@@ -71,5 +71,11 @@
 ### Diagrama de classes do caso de uso `Registrar Reserva` implementado anteriormente.
 
 <div align="center">
-<img src="./diagramas/DC%20Registrar%20Reserva.png" width="600px" alt="DC Registrar Reserva"> 
+<img src="./diagramas/DC%20Registrar%20Reserva.png" width="800px" alt="DC Registrar Reserva"> 
+</div>
+
+Diagrama detalhado do caso de uso `Registrar Reserva` com as classes Quarto e Pousada:
+
+<div align="center">
+<img src="./diagramas/DC%20Registrar%20Reserva%20detalhado.png" width="800px" alt="DC Registrar Reserva"> 
 </div>
