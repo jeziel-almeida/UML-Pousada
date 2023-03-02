@@ -68,13 +68,11 @@
 
 ## Diagrama de classes
 
-### Diagrama de classes do caso de uso `Registrar Reserva` implementado anteriormente.
+### Diagrama de classes com base no caso de uso `Registrar Reserva` implementado anteriormente e nos seguintes requistos de negócio:
 
-<div align="center">
-<img src="./diagramas/DC%20Registrar%20Reserva.png" width="800px" alt="DC Registrar Reserva"> 
-</div>
+> `RN-1`: Uma reserva é realizada por um único cliente.
 
-Diagrama detalhado do caso de uso `Registrar Reserva` com as classes Quarto e Pousada:
+> `RN-2`: Uma reserva pode incluir no mínimo 01 (um) quarto e no máximo 03 (três) quartos disponíveis no momento da reserva.
 
 <div align="center">
 <img src="./diagramas/DC%20Registrar%20Reserva%20detalhado.png" width="800px" alt="DC Registrar Reserva"> 
