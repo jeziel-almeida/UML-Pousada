@@ -41,3 +41,27 @@
 * `RN-8`: Os consumos de produtos por parte dos clientes são pagos no momento do check-out, com o valor restante das diárias.
 * `RN-9`: O check-in é realizado a partir de 15h e o check-out, até 12h.
 * `RN-10`: O sistema deve permitir o pagamento da reserva online e no check-out somente com cartão de crédito.
+
+## Diagramas de Caso de Uso
+
+### Diagrama de Caso de Uso com base nos seguintes requisitos funcionais:
+
+> `RF-1`: O sistema deve permitir que os clientes realizem reservas de quartos online ou por contato telefônico com a recepção da pousada.
+
+> `RF-3`: Quando o cliente realiza uma reserva online, o sistema realiza a cobrança de uma diária no cartão de crédito para confirmação da reserva.
+
+<div align="center">
+<img src="./diagramas/Caso%20de%20uso%20registrar%20reserva.png" width="600px"> 
+</div>
+
+*O stereotype << extend >> é usado por que o caso de uso "Registrar Cobrança de Diária" pode ou não ser realizado. É condicional.*
+
+### Diagrama de Caso de Uso com base no seguinte requisito funcional:
+
+> `RF-11`: A quitação da reserva, realizada pela recepção da pousada e somente com cartão de crédito, deve ocorrer no check-out.
+
+<div align="center">
+<img src="./diagramas/Caso%20de%20uso%20checkout.png" width="600px" alt="DCU Realizar Checkout"> 
+</div>
+
+*O stereotype << include >> é usado por que o caso de uso "Quitar reserva" deve ser realizado após o "Realizar Check-out". É incondicional. Ou seja, é executado sem depender de condições.*
